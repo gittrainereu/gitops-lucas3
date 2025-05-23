@@ -16,7 +16,7 @@ jobs:
             '0 8 * * 1')
               echo "message=Guten Morgen am Montag!" >> $GITHUB_OUTPUT
               ;;
-            '0 20 * * 5')
+            '0 11 * * 5')
               echo "message=Guten Abend am Freitag!" >> $GITHUB_OUTPUT
               ;;
             *)
