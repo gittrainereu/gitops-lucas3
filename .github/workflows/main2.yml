@@ -3,7 +3,7 @@ name: Example Workflow
 on: [push]
 
 env:
-  HANS: 'secrets.MYSECRET'
+  HANS: secrets.MYSECRET
 
 jobs:
   example-job:
