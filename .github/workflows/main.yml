@@ -24,5 +24,6 @@ jobs:
     - name: Deploy with Helm
       run: | 
         helm upgrade --install my-release ./charts/my-app --namespace lucas --create-namespace
+        kubectl -n lucas get all
 
 
